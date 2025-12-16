@@ -1,0 +1,165 @@
+#header{
+    background: rgba(16, 28, 38, 1);
+    padding: 30px 0;
+    .header{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-bottom: 30PX;
+        .header-nav{
+            display: flex;
+            gap: 30px;
+            a{
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 100%;
+                color: rgba(186, 185, 185, 1);
+            }
+        }
+        .header-buttons{
+            display: flex;
+            gap: 20px;
+           .sign-in{
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 24px;
+                width: 117px;
+                height: 50px;
+                border-width: 1px;
+                color:rgba(186, 185, 185, 1);
+                border: 1px solid rgba(186, 185, 185, 1);
+                background: rgba(16, 28, 38, 1);
+                border-radius: 100px;
+            }
+            .sign-up{
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 24px;
+                width: 138px;
+                height: 50px;
+                border-width: 1px;
+                color: rgba(16, 28, 38, 1);
+                background: rgba(240, 231, 20, 1);
+                border: 1px ;
+                border-radius: 100px;
+            }
+        }
+    }
+}
+#hero{
+    /* background-image: url('');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; */
+    background: rgba(16, 28, 38, 1); 
+    .hero{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .dot{
+            width: 10px;
+            height: 10px;
+            background: rgba(240, 231, 20, 1);
+            border-radius: 50%;
+            position: absolute;
+            top: 120px;
+            left: 620px;
+        }
+        .hero-text{
+            h1{
+                font-weight: 700;
+                font-style: Bold;
+                font-size: 60px;
+                line-height: 66px;
+                letter-spacing: 1%;
+                color: rgba(243, 244, 246, 1);
+                margin-bottom: 20px;
+            }
+            p{
+                font-weight: 500;
+                font-style: Medium;
+                font-size: 20px;
+                line-height: 32px;
+                letter-spacing: -1.1%;
+                color: rgba(243, 244, 246, 1);
+                margin: 2px;
+            }
+             .hero-actions{
+                display: flex;
+                margin: 30px;
+                .get-started{
+                    width: 197px;
+                    height: 60px;
+                    font-weight: 500;
+                    font-style: Medium;
+                    font-size: 16px;
+                    line-height: 24px;
+                    border-radius: 100px;
+                    border: none;
+                    background: rgba(240, 231, 20, 1);
+                    color: rgba(36, 39, 46, 1);
+                    text-align: center;
+                }
+                .how-it-works{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 197px;
+                    height: 60px;
+                    font-weight: 500;
+                    font-style: Medium;
+                    font-size: 16px;
+                    line-height: 24px;
+                    border: none;
+                    background: rgba(16, 28, 38, 1);
+                    color: rgba(255, 255, 255, 1);
+                    text-align: center;
+                }
+            }
+             .nums{
+                display: flex;
+                gap: 30px   ;
+                .num{
+                    h3{
+                        font-weight: 600;
+                        font-style: Demi;
+                        font-size: 44px;
+                        line-height: 56px;
+                        color: rgba(240, 231, 20, 1);
+                        text-align: center;
+                    }
+                    p{
+                        font-weight: 500;
+                        font-style: Medium;
+                        font-size: 16px;
+                        line-height: 28px;
+                        color: rgba(255, 255, 255, 1);
+                    }
+                }
+            }
+            .star{
+            position: absolute;
+            color: rgba(240, 231, 20, 1);
+            font-size: 22px;
+            top: 390px;
+            right: 840px;
+        }
+        }
+        .hero-img{
+            position: relative;
+            width: 680px;
+        }
+        .hero-position{
+            position: absolute;
+            top: 290px;
+            left: -100px;
+        }
+    }
+     .logo{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+}
